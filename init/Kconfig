@@ -1848,6 +1848,5 @@ source "kernel/Kconfig.locks"
 #ifdef VENDOR_EDIT
 config OEM_DEBUG_SUPORT
 	bool
-	default y
 #endif
 #end add by jiachenghui for support oem trace,2015/05/09

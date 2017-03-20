@@ -176,7 +176,9 @@ obj-y 	+= param_read_write/
 
 #add by jiachenghui for support oem trace,2015/05/09
 #ifdef VENDOR_EDIT
+#ifdef CONFIG_OEM_DEBUG_SUPORT
 obj-$(CONFIG_OEM_DEBUG_SUPORT) 	+= oem_debug/
+#endif
 #endif
 #end add by jiachenghui for support oem trace,2015/05/09
 
